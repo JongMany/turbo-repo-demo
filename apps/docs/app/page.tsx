@@ -1,8 +1,8 @@
-import Image, { type ImageProps } from "next/image";
-import { Button } from "@repo/ui/button";
-import styles from "./page.module.css";
+import Image, { type ImageProps } from 'next/image';
+import { Button } from '@repo/ui/button';
+import styles from './page.module.css';
 
-type Props = Omit<ImageProps, "src"> & {
+type Props = Omit<ImageProps, 'src'> & {
   srcLight: string;
   srcDark: string;
 };
@@ -32,6 +32,7 @@ export default function Home() {
           priority
         />
         <ol>
+          <li>Docs App</li>
           <li>
             Get started by editing <code>apps/docs/app/page.tsx</code>
           </li>
